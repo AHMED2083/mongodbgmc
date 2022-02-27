@@ -20,7 +20,7 @@ app.use(express.static("view")); // serve static files
 // ! Connect to mongodb
 mongoose
     .connect(
-        "mongodb+srv://hello:1234@firsttry.vojoa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        "mongodb+srv://admin:admin@cluster0.kpz95.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     )
     .then(() => {
         console.log("Connected successfuly to database");
